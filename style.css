@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    max-width: 100%;
+    height: 650px;
+    background: url(https://cdn.pixabay.com/photo/2021/10/21/08/14/italy-6728318_960_720.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.first-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-bannertext{
+    width: 60%;
+    height: 400px;
+    margin: 110px 30px 35px 80px;
+}
+.first-bannertext h1{
+    font-size: 70px;
+    color: #00ff40;
+    padding: 60px 70px 0px 50px;
+}
+.first-bannertext p{
+    font-size: 30px;
+    color: #ffffff;
+    margin: 0px 0px 0px 50px;
+}
+.first-bannerform{
+    height: 500px;
+    margin: 80px 130px 35px 20px;
+    position: relative;
+}
+.first-banner form{
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+    background: #ffff;
+    margin: 50px 50px 50px 50px;
+    box-shadow: 0px 0px 15px #80808033;
+}
+input{
+    width: 360px;
+    height: 30px;
+    margin: 10px 10px 0px 10px;
+    padding: 8px;
+    border: 1px solid #80808048;
+    border-radius: 8px;
+    outline: none;
+}
+.first-inp{
+    margin-top: 25px;
+}
+button{
+    width: 375px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 18px 10px 0px 12px;
+    background: #1877F2;
+    border: 1px solid #1877F2;
+    color: #ffffff;
+    border-radius: 10px;
+    outline: none;
+}
+.forgot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 40px;
+    text-decoration: none;
+    margin: 15px 10px 0px 15px;
+    border-bottom: 1px solid #80808048;
+    color: #1877F2;
+}
+.forgot a:visited{
+    color: #1877F2;
+}
+.account{
+    width: 200px;
+    height: 50px;
+    margin: 5px 10px 0px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #42B72A;
+    text-decoration: none;
+    text-transform: capitalize;
+    border-radius: 5px;
+    color: #ffffff;
+}
+.account a:visited{
+    color: #ffffff;
+}
+.new-page{
+    position: absolute;
+    right: 75px;
+    top: 430px;
+    color: #ffffff;
+}
+.new-page b{
+    color: #00ff40;
+}
+
+.z-index{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.box1{
+    width: 320px;
+    height: 200px;
+    background: #ae00ff69;
+    color: #ffffff;
+    margin: 20px;
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    z-index: 3;
+}
+.box2{
+    width: 400px;
+    height: 200px;
+    background: #ff990085;
+    color: #ffffff;
+    margin: 20px;
+    position: absolute;
+    top: 100px;
+    left: 130px;
+    z-index: 1;
+}
+.box3{
+    width: 500px;
+    height: 200px;
+    background: #0059ff9a;
+    color: #ffffff;
+    margin: 20px;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    z-index: 2;
+}
+
+.card-zone{
+    width: 100%;
+    height: 1000px;
+    position: relative;
+}
+.card-zone .card1{
+    width: 350px;
+    height: 300px;
+    color: #ffffff;
+    background: linear-gradient( to right, #ff000098, #0000ff);
+    margin: 10px;
+    border-left: 5px solid #00ff37;
+    border-radius: 20px;
+    position: absolute;
+    top: 350px;
+    left: 80px;
+}
+.card1 h1{
+    padding: 130px 0px 0px 0px;
+    text-align: center;
+}
+.card1 p{
+    text-align: center;
+}
+.card-zone .card2{
+    width: 350px;
+    height: 300px;
+    color: #ffffff;
+    background: linear-gradient( to right, #568f0c86, #ffa600);
+    margin: 10px;
+    border-top: 5px solid #911559;
+    border-radius: 20px;
+    position: absolute;
+    top: 180px;
+    left: 490px;
+}
+.card2 h1{
+    margin: 130px 0px 0px 0px;
+    text-align: center;
+}
+.card2 p{
+    text-align: center;
+}
+.card-zone .card3{
+    width: 350px;
+    height: 300px;
+    color: #ffffff;
+    background: linear-gradient( to right, #00b7ff, #a200ff);
+    margin: 10px;
+    border-bottom: 5px solid #ff006a;
+    border-radius: 20px;
+    position: absolute;
+    top: 520px;
+    left: 490px;
+}
+.card3 h1{
+    margin: 130px 0px 0px 0px;
+    text-align: center;
+}
+.card3 p{
+    text-align: center;
+}
+.card-zone .card4{
+    width: 350px;
+    height: 300px;
+    color: #ffffff;
+    background: linear-gradient( to right, #8d8f20, #108a2a8a);
+    margin: 10px;
+    border-right: 5px solid #2600ff;
+    border-radius: 20px;
+    position: absolute;
+    top: 340px;
+    left: 900px;
+}
+.card4 h1{
+    margin: 130px 0px 0px 0px;
+    text-align: center;
+}
+.card4 p{
+    text-align: center;
+}
+
+
+
